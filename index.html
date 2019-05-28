@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fetch API</title>
+    <style>
+    body {
+        margin: 0 auto;
+        background-color: rgb(245, 235, 217);
+        width: 78%;
+    }
+
+    h1 {
+        color: blue;
+        text-align: center;
+    }
+
+    .info {
+        color: cornflowerblue;
+        font-size: 25px;
+    }
+
+    .container {
+        border: 3px solid whitesmoke;
+        width: 100%;
+        height: 650px;
+        background-color: whitesmoke;
+    }
+</style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Week 8 Assignment</h1>
+        <hr>
+        <p class="info">&rarr;To see the result of this assignment please clone or download from github to your favarite IDE and write your SHA repository and click the link that takes you github page. For example write "commandline" in the input field.</p>
+    
+    <h2>Searching Github repositories</h2>
+    <form>
+        <input type="text" id="userinput" required>
+        <button id="searchBtn" type="button" onclick="getUserInput()">Search</button>
+        <input type="reset" value="Reset">
+    </form>
+    <div id="link"></div>
+    <h2>Gitgub API for SHA</h2>
+    <button id="myButton" onclick="handleClick()">click me </button>
+    <p id="git"></p>
+    <script src="index.js"></script>
+</div>
+</body>
+
+</html>
